@@ -23,6 +23,11 @@ namespace Study
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            //---------------------------------mySelf-----------------------------------------------
+            bundles.Add(new ScriptBundle("~/bundles/messages_cn").Include(
+                "~/Scripts/messages_cn.js"));
+            //---------------------------------mySelf-----------------------------------------------
+
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(

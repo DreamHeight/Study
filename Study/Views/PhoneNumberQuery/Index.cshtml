@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "手机号码查询";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>
+    手机号码查询</h2>
+<fieldset>
+    <form
+    <legend>手机号归属地查询</legend>
+    <input type="text" id="txt_PhoneNumber" class="required" />
+    <input type="button" id="btn_queryPhoneNumber" value="查询" /><br />
+    <input type="text" id="txt_ResultPhoneNumber" /><br />
+    <input type="text" id="txt_Area" /><br />
+    <input type="text" id="txt_Postno" /><br />
+    <input type="text" id="txt_Att" /><br />
+    <input type="text" id="txt_Ctype" /><br />
+    <input type="text" id="txt_Par" /><br />
+    <input type="text" id="txt_Prefix" /><br />
+    <input type="text" id="txt_Operators" /><br />
+    <input type="text" id="txt_Style_Citynm" /><
+</fieldset>
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/messages_cn")
+}

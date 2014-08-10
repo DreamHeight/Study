@@ -1,0 +1,4 @@
+F:\Demo\Study\Study.Common\bin\Debug\Study.Common.dll
+F:\Demo\Study\Study.Common\bin\Debug\Study.Common.pdb
+F:\Demo\Study\Study.Common\obj\Debug\Study.Common.dll
+F:\Demo\Study\Study.Common\obj\Debug\Study.Common.pdb
