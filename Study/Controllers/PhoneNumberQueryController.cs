@@ -16,5 +16,11 @@ namespace Study.Controllers
             return View();
         }
 
+        #region 查询归属地
+        public JsonResult DoQuery() {
+
+            return Json("");
+        }
+        #endregion　查询归属地
     }
 }
