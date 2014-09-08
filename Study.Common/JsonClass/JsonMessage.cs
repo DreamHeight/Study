@@ -7,8 +7,8 @@ namespace Study.Common.JsonClass
 {
     public class JsonMessage
     {
-        public string success { get; set; }
-        public string message { get; set; }
-        public string otherData { get; set; }
+        public string Success { get; set; }
+        public string Message { get; set; }
+        public string OtherData { get; set; }
     }
 }
